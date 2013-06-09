@@ -1,0 +1,13 @@
+{
+  "name": "raise",
+  "version": "0.0.0",
+  "description": "Send a signal to the current process (see raise(3))",
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "main": "./raise.js",
+  "scripts": {
+    "test": "for f in test/*.js; do echo \"$f\"; node \"$f\" || exit 1; done; echo Passed; exit 0"
+  },
+  "repository": "git://github.com/bahamas10/node-raise.git",
+  "license": "MIT",
+  "dependencies": {}
+}
